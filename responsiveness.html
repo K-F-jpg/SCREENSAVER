@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+    <head>
+        <title></title>
+        <link rel="icon" type="icon/x-icon" href="MEDIA/cool wavy infected gif.webp">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                height: 100vh;
+                margin: auto;
+                border: 3px solid red;
+                justify-content: center;
+                align-items: center;
+                background-image: url("MEDIA/cool\ wavy\ infected\ gif.webp"); background-repeat: no-repeat; background-size: 190vh; background-position: center;
+                /* overflow: hidden; */
+            }
+            .container {
+                display: flex;
+                flex-direction: column;
+                /* border: 3px solid green; */
+                width: 70%;
+                height: 80%;
+                /* background-color: white; */
+                gap: 20px;
+            }
+            .containerII {
+                display: flex;
+                flex-direction: row;
+                /* border: 3px solid purple; */
+                width: 100%;
+                height: 100vh;
+                justify-content: center;
+                align-items: center;
+                /* background-color: white; */
+                gap: 20px;
+            }
+            .inside-container {
+                display: flex;
+                /* border: 3px solid magenta; */
+                width: 100%;
+                height: 100%;
+                background-color: white;
+            }
+            @media screen and (max-width: 900px) {
+                body {
+                    background-size: 100vh;
+                    background-color: yellow;
+                    transition: .5s;
+                }
+            }
+            @media screen and (max-width: 600px) {
+                body {
+                    background-size: 100vh 80vw;
+                    background-color: yellow;
+                }
+                containerII {
+                    width: 100%;
+                    height: 20%;
+                }
+            }
+            @keyframes infected-animation {
+                0% {
+                    background-color: black;
+                    color: magenta;
+                }
+                50% {
+                    background-color: yellow;
+                    color: magenta;
+                }
+                100% {
+                    background-color: black;
+                    color: magenta;
+                }
+            }
+            /* image {
+                height: 100px;
+                width: 100px;
+            } */
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="containerII" style="height: 30%; animation: 1s infinite infected-animation; border: 5px dashed magenta;"><header>y0u'v3 b33N INFECTED !!<header></div>
+            <div class="containerII">
+                <div class="inside-container" style="overflow: scroll;">Infected lore:<br>-real name is Kasper<br>-had a cat named popt4rt, which unpleasant (some random entity that keeps showing up in his apartment) ate<br>-Infected dislikes Unpleasant and would kill him if he knew how to<br>-he taught his cat to do a backwards kickflip on the skateboard while it was alive<br>-age: unknown<br>-talks only in "leetspeak" as a result of his infection<br>-his infection does not want him to seek treatment<br>-is online friends with Poob and (someone else)<br>-got the infection from a red couch purchased from the thriftbox store containing a virus script</div>
+                <div class="inside-container" style="justify-content: flex-end; align-items: bottom; border: 5px dashed magenta;">FACT: you are reading this rn :3</div>
+                <div class="inside-container" style="background-image: url('MEDIA/cool\ wavy\ infected\ gif.webp'); background-repeat: no-repeat; background-size: 20vw 30vh; background-position: center;"></div>
+            </div>
+            <div class="containerII" style="height: 30%; justify-content: flex-end; align-items: center; background-color: white; border-bottom: 5px dashed magenta;">
+                <embed type ="video/mp4" src="MEDIA/you are an idiot!.mp4">
+                <div class="inside-container" style="width: 20%; height: 50%; justify-content: flex-end; gap: 10px;">
+                    <image src="MEDIA/lmao kitteh.webp" style="height: 100%;">
+                    <image src="MEDIA/NC-gif.gif" style="height: 100%;">
+                </div>
+            </div>
+        </div>
+        <!-- <img src="MEDIA/Infected_alternate_render.webp" style="position: absolute; right: 900px; top: 300px; height: 900px;"> -->
+        <img src="MEDIA/Infected_alternate_render.webp" style="position: absolute; right: 61%; top: 40%; height: 900px;">
+    </body>
+</html>
